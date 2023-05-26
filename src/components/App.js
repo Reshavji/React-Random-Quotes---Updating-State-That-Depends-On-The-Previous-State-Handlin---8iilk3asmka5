@@ -39,11 +39,9 @@ const App = () => {
 
   return (
     <div id="main" style={{ backgroundColor: backgroundColor }}>
-      <div id="wrapper">
         <div className="quote-text">{quote}</div>
         <div className="quote-author">{author}</div>
         <button id="new-quote" onClick={fetchQuote}>Next Quote</button>
-      </div>
     </div>
   );
 };

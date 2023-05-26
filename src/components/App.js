@@ -41,7 +41,7 @@ const App = () => {
     <div id="main" style={{ backgroundColor: backgroundColor }}>
         <div className="quote-text">{quote}</div>
         <div className="quote-author">{author}</div>
-        <button id="new-quote" onClick={fetchQuote}>Next Quote</button>
+        <button id="new-quote" class="button" onClick={fetchQuote}>Next Quote</button>
     </div>
   );
 };

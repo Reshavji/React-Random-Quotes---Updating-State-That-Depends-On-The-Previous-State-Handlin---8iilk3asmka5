@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+div {
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    background-color: #333;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    /* margin:8% auto auto auto; */
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.quote-text i {
+    font-size: 1em;
+    margin-right: 0.4em;
+}
+
+.quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.buttons {
+    width: 450px;
+    margin: auto;
+    display: flex;
+}
+
+.buttons .button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.buttons .button:hover {
+    opacity: 0.9;
+}
+
+#new-quote {
+    margin-right: auto;
+    margin-left: auto;
+}
